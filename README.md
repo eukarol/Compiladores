@@ -27,8 +27,8 @@ Antes de começar, certifique-se de ter o seguinte instalado:
 
 1. **Clone o repositório**:
    ```bash
-   git clone <url-do-repositório>
-   cd <pasta-do-projeto>
+   git clone https://github.com/eukarol/Compiladores>
+   cd Compiladores
    ```
 
 2. **Compile o arquivo `.l` com o Flex**:
@@ -54,9 +54,9 @@ Antes de começar, certifique-se de ter o seguinte instalado:
 
 ## Estrutura do Projeto
 
-- **scanner.h**: Arquivo do Flex contendo as definições de tokens e regras de análise léxica.
+- **scanner.l**: Arquivo do Flex contendo as definições de tokens e regras de análise léxica.
 - **main.cpp**: Arquivo principal para executar o analisador.
-- **tokens.h**: Arquivo de cabeçalho com as definições de tokens.
+- **token.h**: Arquivo de cabeçalho com as definições de tokens.
 - **README.md**: Documentação do projeto.
 - **entrada_de_exemplo.txt**: Exemplo de arquivo de entrada para testes.
 
