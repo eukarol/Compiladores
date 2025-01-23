@@ -1,0 +1,11 @@
+int main() {
+    char c = 'A';
+    int num = 42;
+    if (num > 10) {
+        print "Número é maior que 10";
+    } else {
+        print "Número é menor ou igual a 10";
+    }
+    // Comentário de linha
+    /* Comentário de várias linhas */
+}
